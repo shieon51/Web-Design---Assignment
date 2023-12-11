@@ -1,0 +1,387 @@
+@charset "UTF-8";
+
+/*--------------------*/
+html {
+    font-size: 100%;
+
+}
+body {
+    font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
+    line-height: 1.7;
+    color:rgb(84, 0, 162);
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+h1 { 
+    font-family: 'Nanum Brush Script'
+cursive;
+}
+
+/*HEADER
+----------------------------------*/
+.logo {
+    height: 36px;
+    margin-top: 14px;
+    padding-top: 15px;
+}
+
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+
+.main-nav li { 
+    margin-left: 32px;
+}
+
+.main-nav a{
+    color: rgb(45, 19, 57);
+}
+
+.main-nav a:hover {
+    color: rgb(163, 48, 245);
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0px 4%;
+    padding-bottom: 20px;
+}
+
+/* FOOTER 
+-----------------------------*/
+footer {
+    background:rgb(75, 34, 105);
+    margin-top: 16px;
+    padding: 26px;
+}
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+/*HOME
+----------------------------*/
+.home-content {
+    text-align: center;
+    margin-top: 10%;
+}
+.home-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 42px;
+}
+.home-sub {
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background-color: rgb(255, 255, 255);
+}
+.home-sub h2 {
+    margin: 20px 0 26px 0;
+}
+.home-sub2 h2{
+    text-align: right;
+    padding: 72px 5% 26px 0;
+}
+
+/* 제목 */
+.page-title {
+    font-size: 5rem;
+    font-family: 'Philosopher', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.season-content h2 {
+    font-size: 5rem;
+    font-family: 'Philosopher', serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.season-content p {
+    font-family: 'Philosopher', serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+/* 버튼 */
+.button {
+    font-size: 1.375rem;
+    font-weight: lighter;
+    background: rgb(163, 48, 245);
+    color: #fff;
+    border-radius: 30px;
+    padding: 18px 32px;
+}
+.button2 {
+    font-weight: lighter;
+    background: rgb(163, 48, 245);
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.button:hover {
+    background: rgb(45, 19, 57);
+}
+
+/* 검색창 */
+form {
+    text-align: right;
+    margin-right: 15%;
+}
+input [type="text"] {
+    width: 100%;
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#name {
+    background: rgb(245, 236, 255);
+}
+
+/* 큰 메인 배경 이미지 */
+.big-bg {
+    padding-top: 20px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#home {
+    background-image: url(../images/main-bg.jpg);
+    height: 780px;
+    padding-bottom: 40px;
+    background-color: rgba(228, 175, 255, 0.37);
+    background-blend-mode: overlay;
+}
+#home .page-title {
+    text-transform: none;
+}
+
+/* grid */
+.grid {
+    display: grid;
+    background-size: cover;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#i1 {
+    background-image: url(../images/item1_bg.jpg);
+    background-position: center top;
+    height: 780px;
+    background-color: rgb(238, 192, 228);
+    background-blend-mode: multiply;
+}
+#i2 {
+    background-image: url(../images/item2_bg.jpg);
+    background-position: center top;
+    height: 780px;
+    background-color: rgb(196, 241, 210);
+    background-blend-mode: multiply;
+}
+#i3 {
+    background-image: url(../images/item3_bg.jpg);
+    background-position: center top;
+    height: 780px;
+    background-color: rgb(255, 187, 178);
+    background-blend-mode: multiply;
+}
+#i4 {
+    background-image: url(../images/item4_bg.jpg);
+    background-position: center top;
+    height: 780px;
+    background-color: rgb(203, 233, 255);
+    background-blend-mode: multiply;
+}
+#i1:hover {
+    background-color: rgb(207, 74, 136);
+    background-blend-mode: color-burn;
+}
+#i2:hover {
+    background-color: rgb(83, 132, 42);
+    background-blend-mode: color-burn;
+}
+#i3:hover {
+    background-color: rgb(144, 52, 52);
+    background-blend-mode: color-burn;
+}
+#i4:hover {
+    background-color: rgb(42, 84, 148);
+    background-blend-mode: color-burn;
+}
+.item-list {
+    text-align: left;
+    padding: 1.5rem;
+}
+.item-list h3{
+    font-size: 3rem;
+    font-family: 'Philosopher', serif;
+    color: #ffffff;
+}
+.item-list p{
+    font-family: 'Philosopher', serif;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+/*Spring page
+----------------------------*/
+#spring {
+    background-image: url(../images/item1_bg.jpg);
+    height: 400px;
+    margin-bottom: 40px;
+    background-color: rgb(238, 192, 228);
+    background-blend-mode: multiply;
+}
+
+#spring .page-title {
+    text-transform: none;
+}
+
+/*Summer page
+--------------------------------*/
+#summer {
+    background-image: url(../images/item2_bg.jpg);
+    height: 400px;
+    margin-bottom: 40px;
+    background-color: rgb(196, 241, 210);
+    background-blend-mode: multiply;
+}
+
+#summer .page-title {
+    text-transform: none;
+}
+
+/*Autumn page
+--------------------------------*/
+#autumn {
+    background-image: url(../images/item3_bg.jpg);
+    height: 400px;
+    margin-bottom: 40px;
+    background-color: rgb(255, 187, 178);
+    background-blend-mode: multiply;
+}
+
+#autumn .page-title {
+    text-transform: none;
+}
+
+/*Winter page
+--------------------------------*/
+#winter {
+    background-image: url(../images/item4_bg.jpg);
+    background-position: center;
+    height: 400px;
+    margin-bottom: 40px;
+    background-color: rgb(203, 233, 255);
+    background-blend-mode: multiply;
+}
+
+#winter .page-title {
+    text-transform: none;
+}
+
+/* 작품들 목록 그리드 */
+.grid-item {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(2, minmax(240px, 1fr));
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+
+.season-bg {
+    padding-top: 20px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+/* 찾아오시는 길 */
+#location {
+    padding: 4% 0;
+}
+#location .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.location-info {
+    width: 22%;
+}
+.location-info h3 {
+    border-bottom: 2px rgb(77, 0, 221) solid;
+    margin-right: 5px;
+}
+.location-info p {
+    padding: 12px 10px;
+}
+.location-map {
+    width: 74%;
+}
+/* iframe */
+.location-map {
+    width: 100%;
+}
+
+/* 전시회 소개 페이지 */
+#introduce {
+    background-image: url(../images/intro_bg.jpg);
+    background-color: rgb(88, 83, 159);
+    background-blend-mode: screen;
+    height: 1300px;
+    margin-bottom: 36px;
+    padding: 10%;
+    
+}
+.intro-title {
+    font-size: 3rem;
+    font-family: 'Philosopher', serif;
+    border-width: thick;
+    text-align: center;
+}
+.introduce-content p {
+    text-align: center;
+}
+.video {
+    margin-top: 36px;
+    margin-left: 12%;
+    margin-right: 12%;
+    display: flex;
+}
+
+/* 메인 홈으로 */
+.any-list {
+    font-size: 1.35rem;
+    font-weight: lighter;
+    margin-right: 15%;
+    text-align: right;
+}
+.any-list a {
+    color: rgb(31, 25, 120);
+}
+
+.any-list2 {
+    font-size: 1.35rem;
+    font-weight: lighter;
+    margin-right: 15%;
+    text-align: right;
+    margin-top: 80px;
+}
